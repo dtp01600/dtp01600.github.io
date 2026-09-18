@@ -10,8 +10,8 @@
             "role": ["Main DPS"],
             "tag": ["Heavy"]
         },
-        "icon": "/assets/icon-ww/icon_jiyan.png",
-        "slot-img": "/assets/slot-ww/slot_jiyan.png"
+        "icon": "/assets/icon-ww/icon_jiyan.webp",
+        "slot-img": "/assets/slot-ww/slot_jiyan.webp"
     },
     {   
         "id": 6002,
@@ -24,8 +24,8 @@
             "role": ["Sub DPS"],
             "tag": ["Liberation"]
         },
-        "icon": "/assets/icon-ww/icon_yinlin.png",
-        "slot-img": "/assets/slot-ww/slot_yinlin.png"
+        "icon": "/assets/icon-ww/icon_yinlin.webp",
+        "slot-img": "/assets/slot-ww/slot_yinlin.webp"
     },
     {   
         "id": 6003,
@@ -38,8 +38,8 @@
             "role": ["Main DPS"],
             "tag": ["Skill", "Coordinated"]
         },
-        "icon": "/assets/icon-ww/icon_jinhsi.png",
-        "slot-img": "/assets/slot-ww/slot_jinhsi.png"
+        "icon": "/assets/icon-ww/icon_jinhsi.webp",
+        "slot-img": "/assets/slot-ww/slot_jinhsi.webp"
     },
     {   
         "id": 6004,
@@ -52,8 +52,8 @@
             "role": ["Main DPS"],
             "tag": ["Skill", "Liberation", "Mono Fusion"]
         },
-        "icon": "/assets/icon-ww/icon_changli.png",
-        "slot-img": "/assets/slot-ww/slot_changli.png"
+        "icon": "/assets/icon-ww/icon_changli.webp",
+        "slot-img": "/assets/slot-ww/slot_changli.webp"
     },
     {   
         "id": 6005,
@@ -66,8 +66,8 @@
             "role": ["Sub DPS"],
             "tag": ["Skill", "Coordinated"]
         },
-        "icon": "/assets/icon-ww/icon_zhezhi.png",
-        "slot-img": "/assets/slot-ww/slot_zhezhi.png"
+        "icon": "/assets/icon-ww/icon_zhezhi.webp",
+        "slot-img": "/assets/slot-ww/slot_zhezhi.webp"
     },
     {   
         "id": 6006,
@@ -80,8 +80,8 @@
             "role": ["Main DPS"],
             "tag": ["Liberation"]
         },
-        "icon": "/assets/icon-ww/icon_xiangli-yao.png",
-        "slot-img": "/assets/slot-ww/slot_xiangli-yao.png"
+        "icon": "/assets/icon-ww/icon_xiangli-yao.webp",
+        "slot-img": "/assets/slot-ww/slot_xiangli-yao.webp"
     },
     {   
         "id": 6007,
@@ -94,8 +94,8 @@
             "role": ["Supporter"],
             "tag": ["Healer"]
         },
-        "icon": "/assets/icon-ww/icon_shorekeeper.png",
-        "slot-img": "/assets/slot-ww/slot_shorekeeper.png"
+        "icon": "/assets/icon-ww/icon_shorekeeper.webp",
+        "slot-img": "/assets/slot-ww/slot_shorekeeper.webp"
     },
     {   
         "id": 6008,
@@ -108,8 +108,8 @@
             "role": ["Main DPS"],
             "tag": ["Basic"]
         },
-        "icon": "/assets/icon-ww/icon_camellya.png",
-        "slot-img": "/assets/slot-ww/slot_camellya.png"
+        "icon": "/assets/icon-ww/icon_camellya.webp",
+        "slot-img": "/assets/slot-ww/slot_camellya.webp"
     },
     {   
         "id": 6009,
@@ -122,8 +122,8 @@
             "role": ["Main DPS"],
             "tag": ["Skill"]
         },
-        "icon": "/assets/icon-ww/icon_carlotta.png",
-        "slot-img": "/assets/slot-ww/slot_carlotta.png"
+        "icon": "/assets/icon-ww/icon_carlotta.webp",
+        "slot-img": "/assets/slot-ww/slot_carlotta.webp"
     },
     {   
         "id": 6010,
@@ -136,8 +136,8 @@
             "role": ["Sub DPS"],
             "tag": ["Basic"]
         },
-        "icon": "/assets/icon-ww/icon_roccia.png",
-        "slot-img": "/assets/slot-ww/slot_roccia.png"
+        "icon": "/assets/icon-ww/icon_roccia.webp",
+        "slot-img": "/assets/slot-ww/slot_roccia.webp"
     },
     {   
         "id": 6011,
@@ -150,8 +150,8 @@
             "role": ["Main DPS", "Sub DPS"],
             "tag": ["Negative Status", "Heavy"]
         },
-        "icon": "/assets/icon-ww/icon_phoebe.png",
-        "slot-img": "/assets/slot-ww/slot_phoebe.png"
+        "icon": "/assets/icon-ww/icon_phoebe.webp",
+        "slot-img": "/assets/slot-ww/slot_phoebe.webp"
     },
     {   
         "id": 6012,
@@ -164,8 +164,8 @@
             "role": ["Sub DPS"],
             "tag": ["Shield", "Skill", "Mono Fusion"]
         },
-        "icon": "/assets/icon-ww/icon_brant.png",
-        "slot-img": "/assets/slot-ww/slot_brant.png"
+        "icon": "/assets/icon-ww/icon_brant.webp",
+        "slot-img": "/assets/slot-ww/slot_brant.webp"
     },
     {   
         "id": 6013,
@@ -178,8 +178,8 @@
             "role": ["Sub DPS"],
             "tag": ["Coordinated", "Echo", "Skill"]
         },
-        "icon": "/assets/icon-ww/icon_cantarella.png",
-        "slot-img": "/assets/slot-ww/slot_cantarella.png"
+        "icon": "/assets/icon-ww/icon_cantarella.webp",
+        "slot-img": "/assets/slot-ww/slot_cantarella.webp"
     },
     {   
         "id": 6014,
@@ -192,8 +192,8 @@
             "role": ["Main DPS"],
             "tag": ["Negative Status", "Heavy"]
         },
-        "icon": "/assets/icon-ww/icon_zani.png",
-        "slot-img": "/assets/slot-ww/slot_zani.png"
+        "icon": "/assets/icon-ww/icon_zani.webp",
+        "slot-img": "/assets/slot-ww/slot_zani.webp"
     },
     {   
         "id": 6015,
@@ -206,8 +206,8 @@
             "role": ["Sub DPS"],
             "tag": ["Negative Status"]
         },
-        "icon": "/assets/icon-ww/icon_ciaccona.png",
-        "slot-img": "/assets/slot-ww/slot_ciaccona.png"
+        "icon": "/assets/icon-ww/icon_ciaccona.webp",
+        "slot-img": "/assets/slot-ww/slot_ciaccona.webp"
     },
     {   
         "id": 6016,
@@ -220,8 +220,8 @@
             "role": ["Main DPS"],
             "tag": ["Negative Status", "Basic"]
         },
-        "icon": "/assets/icon-ww/icon_cartethyia.png",
-        "slot-img": "/assets/slot-ww/slot_cartethyia.png"
+        "icon": "/assets/icon-ww/icon_cartethyia.webp",
+        "slot-img": "/assets/slot-ww/slot_cartethyia.webp"
     },
     {   
         "id": 6017,
@@ -234,8 +234,8 @@
             "role": ["Sub DPS"],
             "tag": ["Mono Fusion", "Basic", "Liberation"]
         },
-        "icon": "/assets/icon-ww/icon_lupa.png",
-        "slot-img": "/assets/slot-ww/slot_lupa.png"
+        "icon": "/assets/icon-ww/icon_lupa.webp",
+        "slot-img": "/assets/slot-ww/slot_lupa.webp"
     },
     {   
         "id": 6018,
@@ -248,8 +248,8 @@
             "role": ["Main DPS"],
             "tag": ["Echo", "Skill", "Heavy"]
         },
-        "icon": "/assets/icon-ww/icon_phrolova.png",
-        "slot-img": "/assets/slot-ww/slot_phrolova.png"
+        "icon": "/assets/icon-ww/icon_phrolova.webp",
+        "slot-img": "/assets/slot-ww/slot_phrolova.webp"
     },
     {   
         "id": 6019,
@@ -262,8 +262,8 @@
             "role": ["Main DPS"],
             "tag": ["Heavy", "Shield"]
         },
-        "icon": "/assets/icon-ww/icon_augusta.png",
-        "slot-img": "/assets/slot-ww/slot_augusta.png"
+        "icon": "/assets/icon-ww/icon_augusta.webp",
+        "slot-img": "/assets/slot-ww/slot_augusta.webp"
     },
     {   
         "id": 6020,
@@ -276,8 +276,8 @@
             "role": ["Sub DPS", "Main DPS"],
             "tag": ["Heavy", "Liberation", "Shield"]
         },
-        "icon": "/assets/icon-ww/icon_iuno.png",
-        "slot-img": "/assets/slot-ww/slot_iuno.png"
+        "icon": "/assets/icon-ww/icon_iuno.webp",
+        "slot-img": "/assets/slot-ww/slot_iuno.webp"
     },
     {   
         "id": 6021,
@@ -290,8 +290,8 @@
             "role": ["Main DPS"],
             "tag": ["Heavy", "Echo", "Mono Fusion"]
         },
-        "icon": "/assets/icon-ww/icon_galbrena.png",
-        "slot-img": "/assets/slot-ww/slot_galbrena.png"
+        "icon": "/assets/icon-ww/icon_galbrena.webp",
+        "slot-img": "/assets/slot-ww/slot_galbrena.webp"
     },
     {   
         "id": 6022,
@@ -304,8 +304,8 @@
             "role": ["Sub DPS"],
             "tag": ["Echo", "Heavy"]
         },
-        "icon": "/assets/icon-ww/icon_qiuyuan.png",
-        "slot-img": "/assets/slot-ww/slot_qiuyuan.png"
+        "icon": "/assets/icon-ww/icon_qiuyuan.webp",
+        "slot-img": "/assets/slot-ww/slot_qiuyuan.webp"
     },
     {   
         "id": 6023,
@@ -318,8 +318,8 @@
             "role": ["Supporter"],
             "tag": ["Healer", "Negative Status", "Shield", "Potential"]
         },
-        "icon": "/assets/icon-ww/icon_chisa.png",
-        "slot-img": "/assets/slot-ww/slot_chisa.png"
+        "icon": "/assets/icon-ww/icon_chisa.webp",
+        "slot-img": "/assets/slot-ww/slot_chisa.webp"
     },
     {   
         "id": 6024,
@@ -332,8 +332,8 @@
             "role": ["Sub DPS"],
             "tag": ["Liberation", "Tune Break"]
         },
-        "icon": "/assets/icon-ww/icon_lynae.png",
-        "slot-img": "/assets/slot-ww/slot_lynae.png"
+        "icon": "/assets/icon-ww/icon_lynae.webp",
+        "slot-img": "/assets/slot-ww/slot_lynae.webp"
     },
     {   
         "id": 6025,
@@ -346,8 +346,8 @@
             "role": ["Supporter"],
             "tag": ["Healer", "Tune Break", "Mono Fusion"]
         },
-        "icon": "/assets/icon-ww/icon_mornye.png",
-        "slot-img": "/assets/slot-ww/slot_mornye.png"
+        "icon": "/assets/icon-ww/icon_mornye.webp",
+        "slot-img": "/assets/slot-ww/slot_mornye.webp"
     },
     {   
         "id": 6026,
@@ -360,8 +360,8 @@
             "role": ["Main DPS"],
             "tag": ["Liberation", "Tune Break", "Negative Status", "Mono Fusion"]
         },
-        "icon": "/assets/icon-ww/icon_aemeath.png",
-        "slot-img": "/assets/slot-ww/slot_aemeath.png"
+        "icon": "/assets/icon-ww/icon_aemeath.webp",
+        "slot-img": "/assets/slot-ww/slot_aemeath.webp"
     },
     {   
         "id": 6027,
@@ -374,8 +374,8 @@
             "role": ["Main DPS"],
             "tag": ["Basic", "Tune Break"]
         },
-        "icon": "/assets/icon-ww/icon_luuk-herssen.png",
-        "slot-img": "/assets/slot-ww/slot_luuk-herssen.png"
+        "icon": "/assets/icon-ww/icon_luuk-herssen.webp",
+        "slot-img": "/assets/slot-ww/slot_luuk-herssen.webp"
     },
     {   
         "id": 6028,
@@ -388,8 +388,8 @@
             "role": ["Main DPS"],
             "tag": ["Echo"]
         },
-        "icon": "/assets/icon-ww/icon_sigrika.png",
-        "slot-img": "/assets/slot-ww/slot_sigrika.png"
+        "icon": "/assets/icon-ww/icon_sigrika.webp",
+        "slot-img": "/assets/slot-ww/slot_sigrika.webp"
     },
     {   
         "id": 6029,
@@ -402,8 +402,8 @@
             "role": ["Main DPS"],
             "tag": ["Liberation", "Negative Status"]
         },
-        "icon": "/assets/icon-ww/icon_hiyuki.png",
-        "slot-img": "/assets/slot-ww/slot_hiyuki.png"
+        "icon": "/assets/icon-ww/icon_hiyuki.webp",
+        "slot-img": "/assets/slot-ww/slot_hiyuki.webp"
     },
     {   
         "id": 6030,
@@ -416,8 +416,8 @@
             "role": ["Sub DPS"],
             "tag": ["Tune Break", "Negative Status", "Mono Fusion"]
         },
-        "icon": "/assets/icon-ww/icon_denia.png",
-        "slot-img": "/assets/slot-ww/slot_denia.png"
+        "icon": "/assets/icon-ww/icon_denia.webp",
+        "slot-img": "/assets/slot-ww/slot_denia.webp"
     },
     {   
         "id": 6031,
@@ -430,8 +430,8 @@
             "role": ["Sub DPS"],
             "tag": ["Heavy", "Basic", "Tune Break"]
         },
-        "icon": "/assets/icon-ww/icon_rebecca.png",
-        "slot-img": "/assets/slot-ww/slot_rebecca.png"
+        "icon": "/assets/icon-ww/icon_rebecca.webp",
+        "slot-img": "/assets/slot-ww/slot_rebecca.webp"
     },
     {   
         "id": 6032,
@@ -444,8 +444,8 @@
             "role": ["Main DPS"],
             "tag": ["Heavy", "Tune Break"]
         },
-        "icon": "/assets/icon-ww/icon_lucy.png",
-        "slot-img": "/assets/slot-ww/slot_lucy.png"
+        "icon": "/assets/icon-ww/icon_lucy.webp",
+        "slot-img": "/assets/slot-ww/slot_lucy.webp"
     },
     {   
         "id": 6033,
@@ -458,8 +458,8 @@
             "role": ["Sub DPS"],
             "tag": ["Negative Status", "Echo"]
         },
-        "icon": "/assets/icon-ww/icon_lucilla.png",
-        "slot-img": "/assets/slot-ww/slot_lucilla.png"
+        "icon": "/assets/icon-ww/icon_lucilla.webp",
+        "slot-img": "/assets/slot-ww/slot_lucilla.webp"
     },
     {   
         "id": 6034,
@@ -472,8 +472,8 @@
             "role": ["Main DPS"],
             "tag": ["Heavy", "Negative Status"]
         },
-        "icon": "/assets/icon-ww/icon_yangyang-xuanling.png",
-        "slot-img": "/assets/slot-ww/slot_yangyang-xuanling.png"
+        "icon": "/assets/icon-ww/icon_yangyang-xuanling.webp",
+        "slot-img": "/assets/slot-ww/slot_yangyang-xuanling.webp"
     },
     {   
         "id": 6035,
@@ -486,8 +486,8 @@
             "role": ["Supporter"],
             "tag": ["Healer", "Negative Status"]
         },
-        "icon": "/assets/icon-ww/icon_suisui.png",
-        "slot-img": "/assets/slot-ww/slot_suisui.png"
+        "icon": "/assets/icon-ww/icon_suisui.webp",
+        "slot-img": "/assets/slot-ww/slot_suisui.webp"
     },
     {   
         "id": 6036,
@@ -500,8 +500,8 @@
             "role": ["Main DPS"],
             "tag": ["Tune Break"]
         },
-        "icon": "/assets/icon-ww/icon_qingxiao.png",
-        "slot-img": "/assets/slot-ww/slot_qingxiao.png"
+        "icon": "/assets/icon-ww/icon_qingxiao.webp",
+        "slot-img": "/assets/slot-ww/slot_qingxiao.webp"
     },
     {   
         "id": 6037,
@@ -514,8 +514,8 @@
             "role": ["Main DPS"],
             "tag": ["Heavy", "Shield"]
         },
-        "icon": "/assets/icon-ww/icon_jingran.png",
-        "slot-img": "/assets/slot-ww/slot_jingran.png"
+        "icon": "/assets/icon-ww/icon_jingran.webp",
+        "slot-img": "/assets/slot-ww/slot_jingran.webp"
     },
     {   
         "id": 5501,
@@ -528,8 +528,8 @@
             "role": ["Sub DPS", "Supporter"],
             "tag": ["Lord Arbiter", "Negative Status"]
         },
-        "icon": "/assets/icon-ww/icon_rover.png",
-        "slot-img": "/assets/slot-ww/slot_rover.png"
+        "icon": "/assets/icon-ww/icon_rover.webp",
+        "slot-img": "/assets/slot-ww/slot_rover.webp"
     },
     {   
         "id": 5502,
@@ -542,8 +542,8 @@
             "role": ["Main DPS"],
             "tag": ["Lord Arbiter"]
         },
-        "icon": "/assets/icon-ww/icon_rover.png",
-        "slot-img": "/assets/slot-ww/slot_rover.png"
+        "icon": "/assets/icon-ww/icon_rover.webp",
+        "slot-img": "/assets/slot-ww/slot_rover.webp"
     },
     {   
         "id": 5503,
@@ -556,8 +556,8 @@
             "role": ["Supporter"],
             "tag": ["Lord Arbiter", "Negative Status"]
         },
-        "icon": "/assets/icon-ww/icon_rover.png",
-        "slot-img": "/assets/slot-ww/slot_rover.png"
+        "icon": "/assets/icon-ww/icon_rover.webp",
+        "slot-img": "/assets/slot-ww/slot_rover.webp"
     },
     {   
         "id": 5504,
@@ -570,8 +570,8 @@
             "role": ["Sub DPS"],
             "tag": ["Lord Arbiter", "Negative Status"]
         },
-        "icon": "/assets/icon-ww/icon_rover.png",
-        "slot-img": "/assets/slot-ww/slot_rover.png"
+        "icon": "/assets/icon-ww/icon_rover.webp",
+        "slot-img": "/assets/slot-ww/slot_rover.webp"
     },
     {   
         "id": 5001,
@@ -584,8 +584,8 @@
             "role": ["Main DPS"],
             "tag": ["Liberation"]
         },
-        "icon": "/assets/icon-ww/icon_calcharo.png",
-        "slot-img": "/assets/slot-ww/slot_calcharo.png"
+        "icon": "/assets/icon-ww/icon_calcharo.webp",
+        "slot-img": "/assets/slot-ww/slot_calcharo.webp"
     },
     {   
         "id": 5002,
@@ -598,8 +598,8 @@
             "role": ["Main DPS"],
             "tag": ["Basic"]
         },
-        "icon": "/assets/icon-ww/icon_encore.png",
-        "slot-img": "/assets/slot-ww/slot_encore.png"
+        "icon": "/assets/icon-ww/icon_encore.webp",
+        "slot-img": "/assets/slot-ww/slot_encore.webp"
     },
     {   
         "id": 5003,
@@ -612,8 +612,8 @@
             "role": ["Sub DPS"],
             "tag": ["Liberation", "Shield"]
         },
-        "icon": "/assets/icon-ww/icon_jianxin.png",
-        "slot-img": "/assets/slot-ww/slot_jianxin.png"
+        "icon": "/assets/icon-ww/icon_jianxin.webp",
+        "slot-img": "/assets/slot-ww/slot_jianxin.webp"
     },
     {   
         "id": 5004,
@@ -626,8 +626,8 @@
             "role": ["Main DPS"],
             "tag": ["Skill", "Basic"]
         },
-        "icon": "/assets/icon-ww/icon_lingyang.png",
-        "slot-img": "/assets/slot-ww/slot_lingyang.png"
+        "icon": "/assets/icon-ww/icon_lingyang.webp",
+        "slot-img": "/assets/slot-ww/slot_lingyang.webp"
     },
     {   
         "id": 5005,
@@ -640,8 +640,8 @@
             "role": ["Supporter"],
             "tag": ["Healer"]
         },
-        "icon": "/assets/icon-ww/icon_verina.png",
-        "slot-img": "/assets/slot-ww/slot_verina.png"
+        "icon": "/assets/icon-ww/icon_verina.webp",
+        "slot-img": "/assets/slot-ww/slot_verina.webp"
     },
     {   
         "id": 4001,
@@ -654,8 +654,8 @@
             "role": ["Sub DPS"],
             "tag": []
         },
-        "icon": "/assets/icon-ww/icon_aalto.png",
-        "slot-img": "/assets/slot-ww/slot_aalto.png"
+        "icon": "/assets/icon-ww/icon_aalto.webp",
+        "slot-img": "/assets/slot-ww/slot_aalto.webp"
     },
     {   
         "id": 4002,
@@ -668,8 +668,8 @@
             "role": ["Supporter"],
             "tag": ["Healer"]
         },
-        "icon": "/assets/icon-ww/icon_baizhi.png",
-        "slot-img": "/assets/slot-ww/slot_baizhi.png"
+        "icon": "/assets/icon-ww/icon_baizhi.webp",
+        "slot-img": "/assets/slot-ww/slot_baizhi.webp"
     },
     {   
         "id": 4003,
@@ -682,8 +682,8 @@
             "role": ["Main DPS"],
             "tag": ["Skill"]
         },
-        "icon": "/assets/icon-ww/icon_chixia.png",
-        "slot-img": "/assets/slot-ww/slot_chixia.png"
+        "icon": "/assets/icon-ww/icon_chixia.webp",
+        "slot-img": "/assets/slot-ww/slot_chixia.webp"
     },
     {   
         "id": 4004,
@@ -696,8 +696,8 @@
             "role": ["Sub DPS"],
             "tag": ["Heavy", "Hologram Slayer"]
         },
-        "icon": "/assets/icon-ww/icon_danjin.png",
-        "slot-img": "/assets/slot-ww/slot_danjin.png"
+        "icon": "/assets/icon-ww/icon_danjin.webp",
+        "slot-img": "/assets/slot-ww/slot_danjin.webp"
     },
     {   
         "id": 4005,
@@ -710,8 +710,8 @@
             "role": ["Sub DPS"],
             "tag": ["Heavy"]
         },
-        "icon": "/assets/icon-ww/icon_mortefi.png",
-        "slot-img": "/assets/slot-ww/slot_mortefi.png"
+        "icon": "/assets/icon-ww/icon_mortefi.webp",
+        "slot-img": "/assets/slot-ww/slot_mortefi.webp"
     },
     {   
         "id": 4006,
@@ -724,8 +724,8 @@
             "role": ["Sub DPS"],
             "tag": ["Basic"]
         },
-        "icon": "/assets/icon-ww/icon_sanhua.png",
-        "slot-img": "/assets/slot-ww/slot_sanhua.png"
+        "icon": "/assets/icon-ww/icon_sanhua.webp",
+        "slot-img": "/assets/slot-ww/slot_sanhua.webp"
     },
     {   
         "id": 4007,
@@ -738,8 +738,8 @@
             "role": ["Sub DPS"],
             "tag": ["Skill", "Shield"]
         },
-        "icon": "/assets/icon-ww/icon_taoqi.png",
-        "slot-img": "/assets/slot-ww/slot_taoqi.png"
+        "icon": "/assets/icon-ww/icon_taoqi.webp",
+        "slot-img": "/assets/slot-ww/slot_taoqi.webp"
     },
     {   
         "id": 4008,
@@ -752,8 +752,8 @@
             "role": ["Sub DPS"],
             "tag": []
         },
-        "icon": "/assets/icon-ww/icon_yangyang.png",
-        "slot-img": "/assets/slot-ww/slot_yangyang.png"
+        "icon": "/assets/icon-ww/icon_yangyang.webp",
+        "slot-img": "/assets/slot-ww/slot_yangyang.webp"
     },
     {   
         "id": 4009,
@@ -766,8 +766,8 @@
             "role": ["Supporter"],
             "tag": ["Tln"]
         },
-        "icon": "/assets/icon-ww/icon_yuanwu.png",
-        "slot-img": "/assets/slot-ww/slot_yuanwu.png"
+        "icon": "/assets/icon-ww/icon_yuanwu.webp",
+        "slot-img": "/assets/slot-ww/slot_yuanwu.webp"
     },
     {
         "id": 4010,
@@ -780,8 +780,8 @@
             "role": ["Supporter"],
             "tag": ["Coordinated", "Healer"]
         },
-        "icon": "/assets/icon-ww/icon_youhu.png",
-        "slot-img": "/assets/slot-ww/slot_youhu.png"
+        "icon": "/assets/icon-ww/icon_youhu.webp",
+        "slot-img": "/assets/slot-ww/slot_youhu.webp"
     },
     {
         "id": 4011,
@@ -794,8 +794,8 @@
             "role": ["Sub DPS"],
             "tag": ["Skill"]
         },
-        "icon": "/assets/icon-ww/icon_lumi.png",
-        "slot-img": "/assets/slot-ww/slot_lumi.png"
+        "icon": "/assets/icon-ww/icon_lumi.webp",
+        "slot-img": "/assets/slot-ww/slot_lumi.webp"
     },
     {
         "id": 4012,
@@ -808,7 +808,7 @@
             "role": ["Supporter"],
             "tag": ["Healer", "Skill", "Negative Status"]
         },
-        "icon": "/assets/icon-ww/icon_buling.png",
-        "slot-img": "/assets/slot-ww/slot_buling.png"
+        "icon": "/assets/icon-ww/icon_buling.webp",
+        "slot-img": "/assets/slot-ww/slot_buling.webp"
     }
 ]
