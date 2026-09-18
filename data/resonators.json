@@ -36,7 +36,7 @@
         "weapon": "Broadblade",
         "style": {
             "role": ["Main DPS"],
-            "tag": ["Skill", "Coordinated"]
+            "tag": ["Skill", "Coordinated", "Unison"]
         },
         "icon": "/assets/icon-ww/icon_jinhsi.webp",
         "slot-img": "/assets/slot-ww/slot_jinhsi.webp"
@@ -516,6 +516,34 @@
         },
         "icon": "/assets/icon-ww/icon_jingran.webp",
         "slot-img": "/assets/slot-ww/slot_jingran.webp"
+    },
+    {   
+        "id": 6038,
+        "name": "Hsin",
+        "release": 3.7,
+        "tier": 5,
+        "attribute": "Electro",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Skill", "Unison", "Negative Status"]
+        },
+        "icon": "/assets/icon-ww/icon_hsin.webp",
+        "slot-img": "/assets/slot-ww/slot_hsin.webp"
+    },
+    {   
+        "id": 6039,
+        "name": "Suoming",
+        "release": 3.7,
+        "tier": 5,
+        "attribute": "Electro",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Main DPS", "Sub DPS"],
+            "tag": ["Basic", "Unison"]
+        },
+        "icon": "/assets/icon-ww/icon_suoming.webp",
+        "slot-img": "/assets/slot-ww/slot_suoming.webp"
     },
     {   
         "id": 5501,
