@@ -1,0 +1,814 @@
+[
+    {   
+        "id": 6001,
+        "name": "Jiyan",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Aero",
+        "weapon": "Broadblade",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Heavy"]
+        },
+        "icon": "/assets/icon-ww/icon_jiyan.png",
+        "slot-img": "/assets/slot-ww/slot_jiyan.png"
+    },
+    {   
+        "id": 6002,
+        "name": "Yinlin",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Electro",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Liberation"]
+        },
+        "icon": "/assets/icon-ww/icon_yinlin.png",
+        "slot-img": "/assets/slot-ww/slot_yinlin.png"
+    },
+    {   
+        "id": 6003,
+        "name": "Jinhsi",
+        "release": 1.1,
+        "tier": 5,
+        "attribute": "Spectro",
+        "weapon": "Broadblade",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Skill", "Coordinated"]
+        },
+        "icon": "/assets/icon-ww/icon_jinhsi.png",
+        "slot-img": "/assets/slot-ww/slot_jinhsi.png"
+    },
+    {   
+        "id": 6004,
+        "name": "Changli",
+        "release": 1.1,
+        "tier": 5,
+        "attribute": "Fusion",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Skill", "Liberation", "Mono Fusion"]
+        },
+        "icon": "/assets/icon-ww/icon_changli.png",
+        "slot-img": "/assets/slot-ww/slot_changli.png"
+    },
+    {   
+        "id": 6005,
+        "name": "Zhezhi",
+        "release": 1.2,
+        "tier": 5,
+        "attribute": "Glacio",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Skill", "Coordinated"]
+        },
+        "icon": "/assets/icon-ww/icon_zhezhi.png",
+        "slot-img": "/assets/slot-ww/slot_zhezhi.png"
+    },
+    {   
+        "id": 6006,
+        "name": "Xiangli Yao",
+        "release": 1.2,
+        "tier": 5,
+        "attribute": "Electro",
+        "weapon": "Gauntlets",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Liberation"]
+        },
+        "icon": "/assets/icon-ww/icon_xiangli-yao.png",
+        "slot-img": "/assets/slot-ww/slot_xiangli-yao.png"
+    },
+    {   
+        "id": 6007,
+        "name": "Shorekeeper",
+        "release": 1.3,
+        "tier": 5,
+        "attribute": "Spectro",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Supporter"],
+            "tag": ["Healer"]
+        },
+        "icon": "/assets/icon-ww/icon_shorekeeper.png",
+        "slot-img": "/assets/slot-ww/slot_shorekeeper.png"
+    },
+    {   
+        "id": 6008,
+        "name": "Camellya",
+        "release": 1.4,
+        "tier": 5,
+        "attribute": "Havoc",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Basic"]
+        },
+        "icon": "/assets/icon-ww/icon_camellya.png",
+        "slot-img": "/assets/slot-ww/slot_camellya.png"
+    },
+    {   
+        "id": 6009,
+        "name": "Carlotta",
+        "release": 2.0,
+        "tier": 5,
+        "attribute": "Glacio",
+        "weapon": "Pistols",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Skill"]
+        },
+        "icon": "/assets/icon-ww/icon_carlotta.png",
+        "slot-img": "/assets/slot-ww/slot_carlotta.png"
+    },
+    {   
+        "id": 6010,
+        "name": "Roccia",
+        "release": 2.0,
+        "tier": 5,
+        "attribute": "Havoc",
+        "weapon": "Gauntlets",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Basic"]
+        },
+        "icon": "/assets/icon-ww/icon_roccia.png",
+        "slot-img": "/assets/slot-ww/slot_roccia.png"
+    },
+    {   
+        "id": 6011,
+        "name": "Phoebe",
+        "release": 2.1,
+        "tier": 5,
+        "attribute": "Spectro",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Main DPS", "Sub DPS"],
+            "tag": ["Negative Status", "Heavy"]
+        },
+        "icon": "/assets/icon-ww/icon_phoebe.png",
+        "slot-img": "/assets/slot-ww/slot_phoebe.png"
+    },
+    {   
+        "id": 6012,
+        "name": "Brant",
+        "release": 2.1,
+        "tier": 5,
+        "attribute": "Fusion",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Shield", "Skill", "Mono Fusion"]
+        },
+        "icon": "/assets/icon-ww/icon_brant.png",
+        "slot-img": "/assets/slot-ww/slot_brant.png"
+    },
+    {   
+        "id": 6013,
+        "name": "Cantarella",
+        "release": 2.2,
+        "tier": 5,
+        "attribute": "Havoc",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Coordinated", "Echo", "Skill"]
+        },
+        "icon": "/assets/icon-ww/icon_cantarella.png",
+        "slot-img": "/assets/slot-ww/slot_cantarella.png"
+    },
+    {   
+        "id": 6014,
+        "name": "Zani",
+        "release": 2.3,
+        "tier": 5,
+        "attribute": "Spectro",
+        "weapon": "Gauntlets",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Negative Status", "Heavy"]
+        },
+        "icon": "/assets/icon-ww/icon_zani.png",
+        "slot-img": "/assets/slot-ww/slot_zani.png"
+    },
+    {   
+        "id": 6015,
+        "name": "Ciaccona",
+        "release": 2.3,
+        "tier": 5,
+        "attribute": "Aero",
+        "weapon": "Pistols",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Negative Status"]
+        },
+        "icon": "/assets/icon-ww/icon_ciaccona.png",
+        "slot-img": "/assets/slot-ww/slot_ciaccona.png"
+    },
+    {   
+        "id": 6016,
+        "name": "Cartethyia",
+        "release": 2.4,
+        "tier": 5,
+        "attribute": "Aero",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Negative Status", "Basic"]
+        },
+        "icon": "/assets/icon-ww/icon_cartethyia.png",
+        "slot-img": "/assets/slot-ww/slot_cartethyia.png"
+    },
+    {   
+        "id": 6017,
+        "name": "Lupa",
+        "release": 2.4,
+        "tier": 5,
+        "attribute": "Fusion",
+        "weapon": "Broadblade",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Mono Fusion", "Basic", "Liberation"]
+        },
+        "icon": "/assets/icon-ww/icon_lupa.png",
+        "slot-img": "/assets/slot-ww/slot_lupa.png"
+    },
+    {   
+        "id": 6018,
+        "name": "Phrolova",
+        "release": 2.5,
+        "tier": 5,
+        "attribute": "Havoc",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Echo", "Skill", "Heavy"]
+        },
+        "icon": "/assets/icon-ww/icon_phrolova.png",
+        "slot-img": "/assets/slot-ww/slot_phrolova.png"
+    },
+    {   
+        "id": 6019,
+        "name": "Augusta",
+        "release": 2.6,
+        "tier": 5,
+        "attribute": "Electro",
+        "weapon": "Broadblade",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Heavy", "Shield"]
+        },
+        "icon": "/assets/icon-ww/icon_augusta.png",
+        "slot-img": "/assets/slot-ww/slot_augusta.png"
+    },
+    {   
+        "id": 6020,
+        "name": "Iuno",
+        "release": 2.6,
+        "tier": 5,
+        "attribute": "Aero",
+        "weapon": "Gauntlets",
+        "style": {
+            "role": ["Sub DPS", "Main DPS"],
+            "tag": ["Heavy", "Liberation", "Shield"]
+        },
+        "icon": "/assets/icon-ww/icon_iuno.png",
+        "slot-img": "/assets/slot-ww/slot_iuno.png"
+    },
+    {   
+        "id": 6021,
+        "name": "Galbrena",
+        "release": 2.7,
+        "tier": 5,
+        "attribute": "Fusion",
+        "weapon": "Pistols",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Heavy", "Echo", "Mono Fusion"]
+        },
+        "icon": "/assets/icon-ww/icon_galbrena.png",
+        "slot-img": "/assets/slot-ww/slot_galbrena.png"
+    },
+    {   
+        "id": 6022,
+        "name": "Qiuyuan",
+        "release": 2.7,
+        "tier": 5,
+        "attribute": "Aero",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Echo", "Heavy"]
+        },
+        "icon": "/assets/icon-ww/icon_qiuyuan.png",
+        "slot-img": "/assets/slot-ww/slot_qiuyuan.png"
+    },
+    {   
+        "id": 6023,
+        "name": "Chisa",
+        "release": 2.8,
+        "tier": 5,
+        "attribute": "Havoc",
+        "weapon": "Broadblade",
+        "style": {
+            "role": ["Supporter"],
+            "tag": ["Healer", "Negative Status", "Shield", "Potential"]
+        },
+        "icon": "/assets/icon-ww/icon_chisa.png",
+        "slot-img": "/assets/slot-ww/slot_chisa.png"
+    },
+    {   
+        "id": 6024,
+        "name": "Lynae",
+        "release": 3.0,
+        "tier": 5,
+        "attribute": "Spectro",
+        "weapon": "Pistols",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Liberation", "Tune Break"]
+        },
+        "icon": "/assets/icon-ww/icon_lynae.png",
+        "slot-img": "/assets/slot-ww/slot_lynae.png"
+    },
+    {   
+        "id": 6025,
+        "name": "Mornye",
+        "release": 3.0,
+        "tier": 5,
+        "attribute": "Fusion",
+        "weapon": "Broadblade",
+        "style": {
+            "role": ["Supporter"],
+            "tag": ["Healer", "Tune Break", "Mono Fusion"]
+        },
+        "icon": "/assets/icon-ww/icon_mornye.png",
+        "slot-img": "/assets/slot-ww/slot_mornye.png"
+    },
+    {   
+        "id": 6026,
+        "name": "Aemeath",
+        "release": 3.1,
+        "tier": 5,
+        "attribute": "Fusion",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Liberation", "Tune Break", "Negative Status", "Mono Fusion"]
+        },
+        "icon": "/assets/icon-ww/icon_aemeath.png",
+        "slot-img": "/assets/slot-ww/slot_aemeath.png"
+    },
+    {   
+        "id": 6027,
+        "name": "Luuk Herssen",
+        "release": 3.1,
+        "tier": 5,
+        "attribute": "Spectro",
+        "weapon": "Gauntlets",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Basic", "Tune Break"]
+        },
+        "icon": "/assets/icon-ww/icon_luuk-herssen.png",
+        "slot-img": "/assets/slot-ww/slot_luuk-herssen.png"
+    },
+    {   
+        "id": 6028,
+        "name": "Sigrika",
+        "release": 3.2,
+        "tier": 5,
+        "attribute": "Aero",
+        "weapon": "Gauntlets",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Echo"]
+        },
+        "icon": "/assets/icon-ww/icon_sigrika.png",
+        "slot-img": "/assets/slot-ww/slot_sigrika.png"
+    },
+    {   
+        "id": 6029,
+        "name": "Hiyuki",
+        "release": 3.3,
+        "tier": 5,
+        "attribute": "Glacio",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Liberation", "Negative Status"]
+        },
+        "icon": "/assets/icon-ww/icon_hiyuki.png",
+        "slot-img": "/assets/slot-ww/slot_hiyuki.png"
+    },
+    {   
+        "id": 6030,
+        "name": "Denia",
+        "release": 3.3,
+        "tier": 5,
+        "attribute": "Fusion",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Tune Break", "Negative Status", "Mono Fusion"]
+        },
+        "icon": "/assets/icon-ww/icon_denia.png",
+        "slot-img": "/assets/slot-ww/slot_denia.png"
+    },
+    {   
+        "id": 6031,
+        "name": "Rebecca",
+        "release": 3.4,
+        "tier": 5,
+        "attribute": "Electro",
+        "weapon": "Pistols",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Heavy", "Basic", "Tune Break"]
+        },
+        "icon": "/assets/icon-ww/icon_rebecca.png",
+        "slot-img": "/assets/slot-ww/slot_rebecca.png"
+    },
+    {   
+        "id": 6032,
+        "name": "Lucy",
+        "release": 3.4,
+        "tier": 5,
+        "attribute": "Spectro",
+        "weapon": "Pistols",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Heavy", "Tune Break"]
+        },
+        "icon": "/assets/icon-ww/icon_lucy.png",
+        "slot-img": "/assets/slot-ww/slot_lucy.png"
+    },
+    {   
+        "id": 6033,
+        "name": "Lucilla",
+        "release": 3.4,
+        "tier": 5,
+        "attribute": "Glacio",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Negative Status", "Echo"]
+        },
+        "icon": "/assets/icon-ww/icon_lucilla.png",
+        "slot-img": "/assets/slot-ww/slot_lucilla.png"
+    },
+    {   
+        "id": 6034,
+        "name": "Yangyang: Xuanling",
+        "release": 3.5,
+        "tier": 5,
+        "attribute": "Havoc",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Heavy", "Negative Status"]
+        },
+        "icon": "/assets/icon-ww/icon_yangyang-xuanling.png",
+        "slot-img": "/assets/slot-ww/slot_yangyang-xuanling.png"
+    },
+    {   
+        "id": 6035,
+        "name": "Suisui",
+        "release": 3.5,
+        "tier": 5,
+        "attribute": "Glacio",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Supporter"],
+            "tag": ["Healer", "Negative Status"]
+        },
+        "icon": "/assets/icon-ww/icon_suisui.png",
+        "slot-img": "/assets/slot-ww/slot_suisui.png"
+    },
+    {   
+        "id": 6036,
+        "name": "Qingxiao",
+        "release": 3.6,
+        "tier": 5,
+        "attribute": "Aero",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Tune Break"]
+        },
+        "icon": "/assets/icon-ww/icon_qingxiao.png",
+        "slot-img": "/assets/slot-ww/slot_qingxiao.png"
+    },
+    {   
+        "id": 6037,
+        "name": "Jingran",
+        "release": 3.6,
+        "tier": 5,
+        "attribute": "Fusion",
+        "weapon": "Broadblade",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Heavy", "Shield"]
+        },
+        "icon": "/assets/icon-ww/icon_jingran.png",
+        "slot-img": "/assets/slot-ww/slot_jingran.png"
+    },
+    {   
+        "id": 5501,
+        "name": "Rover: Spectro",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Spectro",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Sub DPS", "Supporter"],
+            "tag": ["Lord Arbiter", "Negative Status"]
+        },
+        "icon": "/assets/icon-ww/icon_rover.png",
+        "slot-img": "/assets/slot-ww/slot_rover.png"
+    },
+    {   
+        "id": 5502,
+        "name": "Rover: Havoc",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Havoc",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Lord Arbiter"]
+        },
+        "icon": "/assets/icon-ww/icon_rover.png",
+        "slot-img": "/assets/slot-ww/slot_rover.png"
+    },
+    {   
+        "id": 5503,
+        "name": "Rover: Aero",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Aero",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Supporter"],
+            "tag": ["Lord Arbiter", "Negative Status"]
+        },
+        "icon": "/assets/icon-ww/icon_rover.png",
+        "slot-img": "/assets/slot-ww/slot_rover.png"
+    },
+    {   
+        "id": 5504,
+        "name": "Rover: Electro",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Electro",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Lord Arbiter", "Negative Status"]
+        },
+        "icon": "/assets/icon-ww/icon_rover.png",
+        "slot-img": "/assets/slot-ww/slot_rover.png"
+    },
+    {   
+        "id": 5001,
+        "name": "Calcharo",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Electro",
+        "weapon": "Broadblade",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Liberation"]
+        },
+        "icon": "/assets/icon-ww/icon_calcharo.png",
+        "slot-img": "/assets/slot-ww/slot_calcharo.png"
+    },
+    {   
+        "id": 5002,
+        "name": "Encore",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Fusion",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Basic"]
+        },
+        "icon": "/assets/icon-ww/icon_encore.png",
+        "slot-img": "/assets/slot-ww/slot_encore.png"
+    },
+    {   
+        "id": 5003,
+        "name": "Jianxin",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Aero",
+        "weapon": "Gauntlets",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Liberation", "Shield"]
+        },
+        "icon": "/assets/icon-ww/icon_jianxin.png",
+        "slot-img": "/assets/slot-ww/slot_jianxin.png"
+    },
+    {   
+        "id": 5004,
+        "name": "Lingyang",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Glacio",
+        "weapon": "Gauntlets",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Skill", "Basic"]
+        },
+        "icon": "/assets/icon-ww/icon_lingyang.png",
+        "slot-img": "/assets/slot-ww/slot_lingyang.png"
+    },
+    {   
+        "id": 5005,
+        "name": "Verina",
+        "release": 1.0,
+        "tier": 5,
+        "attribute": "Spectro",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Supporter"],
+            "tag": ["Healer"]
+        },
+        "icon": "/assets/icon-ww/icon_verina.png",
+        "slot-img": "/assets/slot-ww/slot_verina.png"
+    },
+    {   
+        "id": 4001,
+        "name": "Aalto",
+        "release": 1.0,
+        "tier": 4,
+        "attribute": "Aero",
+        "weapon": "Pistols",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": []
+        },
+        "icon": "/assets/icon-ww/icon_aalto.png",
+        "slot-img": "/assets/slot-ww/slot_aalto.png"
+    },
+    {   
+        "id": 4002,
+        "name": "Baizhi",
+        "release": 1.0,
+        "tier": 4,
+        "attribute": "Glacio",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Supporter"],
+            "tag": ["Healer"]
+        },
+        "icon": "/assets/icon-ww/icon_baizhi.png",
+        "slot-img": "/assets/slot-ww/slot_baizhi.png"
+    },
+    {   
+        "id": 4003,
+        "name": "Chixia",
+        "release": 1.0,
+        "tier": 4,
+        "attribute": "Fusion",
+        "weapon": "Pistols",
+        "style": {
+            "role": ["Main DPS"],
+            "tag": ["Skill"]
+        },
+        "icon": "/assets/icon-ww/icon_chixia.png",
+        "slot-img": "/assets/slot-ww/slot_chixia.png"
+    },
+    {   
+        "id": 4004,
+        "name": "Danjin",
+        "release": 1.0,
+        "tier": 4,
+        "attribute": "Havoc",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Heavy", "Hologram Slayer"]
+        },
+        "icon": "/assets/icon-ww/icon_danjin.png",
+        "slot-img": "/assets/slot-ww/slot_danjin.png"
+    },
+    {   
+        "id": 4005,
+        "name": "Mortefi",
+        "release": 1.0,
+        "tier": 4,
+        "attribute": "Fusion",
+        "weapon": "Pistols",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Heavy"]
+        },
+        "icon": "/assets/icon-ww/icon_mortefi.png",
+        "slot-img": "/assets/slot-ww/slot_mortefi.png"
+    },
+    {   
+        "id": 4006,
+        "name": "Sanhua",
+        "release": 1.0,
+        "tier": 4,
+        "attribute": "Glacio",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Basic"]
+        },
+        "icon": "/assets/icon-ww/icon_sanhua.png",
+        "slot-img": "/assets/slot-ww/slot_sanhua.png"
+    },
+    {   
+        "id": 4007,
+        "name": "Taoqi",
+        "release": 1.0,
+        "tier": 4,
+        "attribute": "Havoc",
+        "weapon": "Broadblade",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Skill", "Shield"]
+        },
+        "icon": "/assets/icon-ww/icon_taoqi.png",
+        "slot-img": "/assets/slot-ww/slot_taoqi.png"
+    },
+    {   
+        "id": 4008,
+        "name": "Yangyang",
+        "release": 1.0,
+        "tier": 4,
+        "attribute": "Aero",
+        "weapon": "Sword",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": []
+        },
+        "icon": "/assets/icon-ww/icon_yangyang.png",
+        "slot-img": "/assets/slot-ww/slot_yangyang.png"
+    },
+    {   
+        "id": 4009,
+        "name": "Yuanwu",
+        "release": 1.0,
+        "tier": 4,
+        "attribute": "Electro",
+        "weapon": "Gauntlets",
+        "style": {
+            "role": ["Supporter"],
+            "tag": ["Tln"]
+        },
+        "icon": "/assets/icon-ww/icon_yuanwu.png",
+        "slot-img": "/assets/slot-ww/slot_yuanwu.png"
+    },
+    {
+        "id": 4010,
+        "name": "Youhu",
+        "release": 1.3,
+        "tier": 4,
+        "attribute": "Glacio",
+        "weapon": "Gauntlets",
+        "style": {
+            "role": ["Supporter"],
+            "tag": ["Coordinated", "Healer"]
+        },
+        "icon": "/assets/icon-ww/icon_youhu.png",
+        "slot-img": "/assets/slot-ww/slot_youhu.png"
+    },
+    {
+        "id": 4011,
+        "name": "Lumi",
+        "release": 1.4,
+        "tier": 4,
+        "attribute": "Electro",
+        "weapon": "Broadblade",
+        "style": {
+            "role": ["Sub DPS"],
+            "tag": ["Skill"]
+        },
+        "icon": "/assets/icon-ww/icon_lumi.png",
+        "slot-img": "/assets/slot-ww/slot_lumi.png"
+    },
+    {
+        "id": 4012,
+        "name": "Buling",
+        "release": 2.8,
+        "tier": 4,
+        "attribute": "Electro",
+        "weapon": "Rectifier",
+        "style": {
+            "role": ["Supporter"],
+            "tag": ["Healer", "Skill", "Negative Status"]
+        },
+        "icon": "/assets/icon-ww/icon_buling.png",
+        "slot-img": "/assets/slot-ww/slot_buling.png"
+    }
+]

@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "LaguSansBold";
+    src: url("/assets/font/LaguSansBold.otf") format("opentype");
+}
+
+body {
+    font-family: LaguSansBold, sans-serif;
+}
+
+button {
+    font-family: inherit;
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    height: 100vh;
+    width: auto;
+    opacity: 0.36;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.return-button {
+    position: absolute;
+    font-size: 24px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 30px;
+}
+
+.title {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.DamperButton {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 8px;
+
+}
+
+.DamperButton img {
+    width: 128px;
+    height: 128px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.outputFapsu {
+    display: none;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.imageTrieuhoi {
+    display: none;
+    width: 800px;
+    height: 450px;
+    }
+

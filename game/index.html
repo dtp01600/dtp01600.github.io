@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Web#01 - Game</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+
+    <div class="header-bar">
+        <button class="menu-button" id="menuButton" aria-label="Open Menu" onclick="openMenu()">
+            <svg viewBox="0 0 20 20">
+                <line x1="5" y1="6"  x2="15" y2="6"/>
+                <line x1="5" y1="10" x2="15" y2="10"/>
+                <line x1="5" y1="14" x2="15" y2="14"/>
+            </svg>
+        </button>
+        <a href="/" class="title">WEB LO</a>
+        <div class="master-action-bar">
+            <button class="undo-turn" id="Undo">UNDO TURN</button>
+            <button class="reset-all-team" id="resetAllTeam">RESET ALL</button>
+        </div>
+    </div>
+
+    <nav class="main-menu" id="mainMenu">
+        <div class="menu-header">
+            <div class="menu-title">WEB LO</div>
+            <button class="exit-menu" id="exitMenu" aria-label="Close Menu" onclick="closeMenu()">
+                <svg viewBox="0 0 20 20">
+                    <line x1="5" y1="5"  x2="15" y2="15"/>
+                    <line x1="5" y1="15" x2="15" y2="5"/>
+                </svg>
+            </button>
+        </div>
+        <div class="menu-content">
+            <a href="/" class="menu-home">Home</a>
+            <a href="/game/" class="menu-game">Game</a>
+            <a href="/nhuquy/" class="menu-quy">Nhu Quy</a>
+            <a href="/damper/" class="menu-damper">Damper</a>
+        </div>
+    </nav>
+
+    <div class="main-body">
+        <div class="field">
+            <div class="player player2" data-player="P2"></div>
+            <div class="player-status p2-status">
+                <div class="player-status-main">
+                    <div class="player-nametag">
+                        Player 2's PICKS
+                    </div>
+                </div>
+                <div class="special-status">
+                    BANS
+                </div>
+            </div>
+            <div class="playground">
+                <div class="turn-controller">
+                <div class="turn-container">
+                    <div class="turn-label">TIME</div>
+                    <div class="turn-number" id="timer">0</div>
+                </div>
+                    <div class="turn-finished">DONE!</div>                
+                </div>
+            </div>
+            <div class="player-status p1-status">
+                <div class="player-status-main">
+                    <div class="player-nametag">
+                        Player 1's PICKS
+                    </div>
+                </div>
+                <div class="special-status">
+                    BANS
+                </div>
+            </div>
+            <div class="player player1" data-player="P1"></div>
+        </div>
+        <div class="slot-nav" id="slotNav">
+            <div class="slot-nav-header">
+                <div class="slot-nav-title">CHOOSE A RESONATOR</div>
+                <div class="action-slot-nav">
+                    <button class="exit-slot-nav" id="exitSlotNav">
+                        <svg viewBox="0 0 20 20">
+                            <line x1="5" y1="5"  x2="15" y2="15"/>
+                            <line x1="5" y1="15" x2="15" y2="5"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="slot-nav-body" id="slotNavBody">
+                <div class="subaction-slot-nav">
+                    <button class="filter-button"
+                            data-filter-type="attribute"
+                            data-filter-value="Aero">
+                        <img class="attribute-aero" src="/assets/icon-ww/icon_aero.png">    
+                    </button>
+                    <button class="filter-button"
+                            data-filter-type="attribute"
+                            data-filter-value="Electro">
+                        <img class="attribute-electro" src="/assets/icon-ww/icon_electro.png">        
+                    </button>
+                    <button class="filter-button"
+                            data-filter-type="attribute"
+                            data-filter-value="Fusion">
+                        <img class="attribute-fusion" src="/assets/icon-ww/icon_fusion.png">       
+                    </button>
+                    <button class="filter-button"
+                            data-filter-type="attribute"
+                            data-filter-value="Glacio">
+                        <img class="attribute-glacio" src="/assets/icon-ww/icon_glacio.png"> 
+                    </button>
+                    <button class="filter-button"
+                            data-filter-type="attribute"
+                            data-filter-value="Havoc">
+                        <img class="attribute-havoc" src="/assets/icon-ww/icon_havoc.png"> 
+                    </button>
+                    <button class="filter-button"
+                            data-filter-type="attribute"
+                            data-filter-value="Spectro">
+                        <img class="attribute-spectro" src="/assets/icon-ww/icon_spectro.png">    
+                    </button>
+                    <button class="advanced-filter-button" id="advancedFilterButton">MORE</button>
+                </div>
+            </div>
+            <div class="filter-slot-nav" id="filterSlotNav">
+                <div class="slot-nav-header">
+                    <div class="slot-nav-title">ADVANCED FILTER</div>
+                    <button class="exit-filter-slot-nav" id="exitFilterSlotNav">
+                        <svg viewBox="0 0 20 20">
+                            <line x1="5" y1="5"  x2="15" y2="15"/>
+                            <line x1="5" y1="15" x2="15" y2="5"/>
+                        </svg>
+                </div>
+                <div class="filter-slot-nav-body">
+                    <div class="filter-type">Attribute</div>
+                    <div class="filter-contents">
+                        <button class="filter-button"
+                                data-filter-type="attribute"
+                                data-filter-value="Aero">
+                            <img class="attribute-aero" src="/assets/icon-ww/icon_aero.png">   
+                            <div class="filter-button-text">Aero</div> 
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="attribute"
+                                data-filter-value="Electro">
+                            <img class="attribute-electro" src="/assets/icon-ww/icon_electro.png">
+                            <div class="filter-button-text">Electro</div>        
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="attribute"
+                                data-filter-value="Fusion">
+                            <img class="attribute-fusion" src="/assets/icon-ww/icon_fusion.png">
+                            <div class="filter-button-text">Fusion</div>       
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="attribute"
+                                data-filter-value="Glacio">
+                            <img class="attribute-glacio" src="/assets/icon-ww/icon_glacio.png">
+                            <div class="filter-button-text">Glacio</div> 
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="attribute"
+                                data-filter-value="Havoc">
+                            <img class="attribute-havoc" src="/assets/icon-ww/icon_havoc.png">
+                            <div class="filter-button-text">Havoc</div> 
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="attribute"
+                                data-filter-value="Spectro">
+                            <img class="attribute-spectro" src="/assets/icon-ww/icon_spectro.png">
+                            <div class="filter-button-text">Spectro</div>    
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="attribute"
+                                data-filter-value="Rover">
+                            <img class="attribute-rover" src="/assets/icon-ww/icon_kingofallattributes.png">  
+                        </button>
+                    </div>
+                    <div class="filter-type">Rarity</div>
+                    <div class="filter-contents">
+                        <button class="filter-button"
+                                data-filter-type="tier"
+                                data-filter-value="4">
+                            <img class="tier-4" src="/assets/icon-ww/icon_tier4.png">    
+                            <div class="filter-button-text">4-Star</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tier"
+                                data-filter-value="5">
+                            <img class="tier-4" src="/assets/icon-ww/icon_tier5.png">    
+                            <div class="filter-button-text">5-Star</div>
+                        </button>
+                    </div>
+                    <div class="filter-type">Role</div>
+                    <div class="filter-contents">
+                        <button class="filter-button"
+                                data-filter-type="role"
+                                data-filter-value="Main DPS">
+                            <img class="tier-4" src="/assets/icon-ww/icon_main-dps.png">    
+                            <div class="filter-button-text">Main DPS</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="role"
+                                data-filter-value="Sub DPS">
+                            <img class="tier-4" src="/assets/icon-ww/icon_sub-dps.png">    
+                            <div class="filter-button-text">Sub DPS</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="role"
+                                data-filter-value="Supporter">
+                            <img class="tier-4" src="/assets/icon-ww/icon_supporter.png">    
+                            <div class="filter-button-text">Supporter</div>
+                        </button>
+                    </div>
+                    <div class="filter-type">Weapon Type</div>
+                    <div class="filter-contents">
+                        <button class="filter-button"
+                                data-filter-type="weapon"
+                                data-filter-value="Broadblade">
+                            <img class="tier-4" src="/assets/icon-ww/icon_broadblade.png">    
+                            <div class="filter-button-text">Broadblade</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="weapon"
+                                data-filter-value="Sword">
+                            <img class="tier-4" src="/assets/icon-ww/icon_sword.png">    
+                            <div class="filter-button-text">Sword</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="weapon"
+                                data-filter-value="Pistols">
+                            <img class="tier-4" src="/assets/icon-ww/icon_pistols.png">    
+                            <div class="filter-button-text">Pistols</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="weapon"
+                                data-filter-value="Gauntlets">
+                            <img class="tier-4" src="/assets/icon-ww/icon_gauntlets.png">    
+                            <div class="filter-button-text">Gauntlets</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="weapon"
+                                data-filter-value="Rectifier">
+                            <img class="tier-4" src="/assets/icon-ww/icon_rectifier.png">    
+                            <div class="filter-button-text">Rectifier</div>
+                        </button>
+                    </div>
+                    <div class="filter-type">Tag</div>
+                    <div class="filter-contents">
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Basic">
+                            <img class="tier-4" src="/assets/icon-ww/icon_basic.png">    
+                            <div class="filter-button-text">Basic</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Heavy">
+                            <img class="tier-4" src="/assets/icon-ww/icon_heavy.png">    
+                            <div class="filter-button-text">Heavy</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Skill">
+                            <img class="tier-4" src="/assets/icon-ww/icon_skill.png">    
+                            <div class="filter-button-text">Skill</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Echo">
+                            <img class="tier-4" src="/assets/icon-ww/icon_echo.png">    
+                            <div class="filter-button-text">Echo</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Liberation">
+                            <img class="tier-4" src="/assets/icon-ww/icon_liberation.png">    
+                            <div class="filter-button-text">Liberation</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Sustain">
+                            <img class="tier-4" src="/assets/icon-ww/icon_supporter.png">    
+                            <div class="filter-button-text">Sustain</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Shield">
+                            <img class="tier-4" src="/assets/icon-ww/icon_shield.png">    
+                            <div class="filter-button-text">Shield</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Coordinated">
+                            <img class="tier-4" src="/assets/icon-ww/icon_coordinated.png">    
+                            <div class="filter-button-text">Coordinated</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Mono Fusion">
+                            <img class="tier-4" src="/assets/icon-ww/icon_mono-fusion.png">    
+                            <div class="filter-button-text">Mono Fusion</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Negative Status">
+                            <img class="tier-4" src="/assets/icon-ww/icon_negative-status.png">    
+                            <div class="filter-button-text">Negative Status</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Tune Break">
+                            <img class="tier-4" src="/assets/icon-ww/icon_tune-break.png">    
+                            <div class="filter-button-text">Tune Break</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Lord Arbiter">
+                            <img class="tier-4" src="/assets/icon-ww/icon_attr-rover.png">    
+                            <div class="filter-button-text">Lord Arbiter</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Potential">
+                            <img class="tier-4" src="/assets/icon-ww/icon_potential.png">    
+                            <div class="filter-button-text">Potential</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Tln">
+                            <img class="tier-4" src="/assets/icon-ww/icon_tln.png">    
+                            <div class="filter-button-text">Tln</div>
+                        </button>
+                        <button class="filter-button"
+                                data-filter-type="tag"
+                                data-filter-value="Hologram Slayer">
+                            <img class="tier-4" src="/assets/icon-ww/icon_hologramslayer.png">    
+                            <div class="filter-button-text">Hologram Slayer</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/script.js"></script>
+    <script src="game.js"></script>
+    <script src="game2.js"></script>
+    <script src="game3.js"></script>
+    <script src="game4.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "LaguSansBold";
+    src: url("/assets/font/LaguSansBold.otf") format("opentype");
+}
+@font-face {
+    font-family: "Bahnscrift";
+    src: url("/assets/font/bahnschrift.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Bahnscrift, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: inherit;
+}
+
+.header-bar {
+    position: fixed;
+    z-index: 255;
+
+    width: 100%;
+    height: 72px;
+
+    padding-left: 16px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: rgb(255, 183, 0, 0.67);
+}
+
+.title {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: semi-condensed;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.return-button {
+    width: auto;
+    height: 40px;
+
+    margin-left: auto;
+    margin-right: 16px;
+
+    background-color: rgb(202, 145, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+
+    color: white;
+    font-size: clamp(12px,2vw,24px);
+    font-weight: bold;
+
+    min-width: 0;
+}
+
+.banner {
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 10%;
+
+    transform: translateX(-10%);
+
+    height: 100vh;
+    width: auto;
+
+    opacity: 0.36;
+}

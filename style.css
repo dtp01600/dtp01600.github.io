@@ -1,0 +1,283 @@
+@font-face {
+    font-family: "LaguSansBold";
+    src: url("assets/font/LaguSansBold.otf") format("opentype");
+}
+@font-face {
+    font-family: "Bahnscrift";
+    src: url("assets/font/bahnschrift.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    min-height: 100vh;
+
+    background: radial-gradient(
+        circle at top,
+        rgb(30, 55, 85) 0%,
+        rgb(12, 25, 43) 55%,
+        rgb(3, 7, 14) 100%
+    );
+    background-color: rgb(0, 0, 0);
+
+    color: rgb(255,255,255);
+    font-family: Bahnscrift, sans-serif;
+}
+
+button {
+    background-color: rgb(12, 25, 43);
+    color: inherit;
+    font-family: inherit;
+
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-bar {
+    position: fixed;
+    z-index: 510;
+
+    width: 100%;
+    height: 60px;
+
+    padding-left: 24px;
+    gap: 16px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: rgba(3, 7, 14, 0.5);  
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.menu-button {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    border: 1px solid transparent;
+    border-radius: 50%;
+
+    background-color: rgba(12, 25, 43, 0);
+}
+
+.menu-button svg {
+    width: 36px;
+    height: 36px;
+
+    stroke: white;
+    stroke-width: 2;
+    stroke-linecap: round;
+}
+
+.menu-button:hover {
+    background-color: rgba(48, 96, 155, 0.25);
+}
+
+.title {
+    padding-top: 2px;
+
+    color: white;
+    text-decoration: none;
+    font-size: 29px;
+    font-weight: bold;
+    font-stretch: semi-condensed;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.return-button {
+    width: auto;
+    height: 32px;
+
+    margin-left: auto;
+    margin-right: 30px;
+
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 1px solid rgb(255, 200, 200);
+    border-radius: 10px;
+
+    color: rgb(255, 200, 200);
+    font-size: clamp(12px,2vw,20px);
+
+    min-width: 0;
+}
+
+.master-action-bar {
+    margin-left: auto;
+    
+    display: flex;
+    gap: 16px;
+}
+
+.undo-turn {
+    width: auto;
+    height: 32px;
+
+    border: 2px solid rgb(214, 168, 79, 0.45);
+    border-radius: 7.2px;
+
+    background-color: rgb(255, 214, 0, 0.16);
+
+    color: rgb(214, 168, 79);
+    font-size: clamp(6px, 3vw, 16px);
+
+    min-width: 0;
+}
+
+.undo-turn:hover {
+    border-color: rgb(255, 193, 7, 0.8);
+    background-color: rgb(255, 193, 7, 0.24);
+    color: rgb(255, 193, 7);
+}
+
+.reset-all-team {
+    width: auto;
+    height: 32px;
+
+    margin-right: 30px;
+
+    border: 2px solid rgb(255, 130, 155, 0.45);
+    border-radius: 7.2px;
+
+    background-color: rgba(255, 0, 0, 0.16);
+    
+
+    color: rgb(255, 130, 155);
+    font-size: clamp(6px, 3vw, 16px);
+
+    min-width: 0;
+}
+
+.reset-all-team:hover {
+    border-color: rgb(255, 145, 165);
+
+    background-color: rgba(255, 20, 40, 0.22);
+
+    color: rgb(255, 175, 190);
+}
+
+.main-menu {
+    position: fixed;
+    z-index: 511;
+
+    left: 0;
+    padding-left: 24px;
+    gap: 16px;
+
+    width: min(450px, 100%);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+
+    background-color: rgb(2, 7, 12, 1);
+
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.main-menu.open {
+    transform: translateX(0);
+}
+
+.menu-header {
+    top: 0;
+
+    height: 72px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu-title {
+    padding-top: 3px;
+
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: semi-condensed;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.menu-content {
+    gap: 24px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 24px;
+}
+
+.exit-menu {
+    width: 50px;
+    height: 50px;
+
+    margin-left: auto;
+    margin-right: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid transparent;
+    border-radius: 50%;
+
+    background-color: rgb(2, 7, 12, 0);
+}
+
+.exit-menu svg {
+    width: 36px;
+    height: 36px;
+
+    stroke: white;
+    stroke-width: 2;
+    stroke-linecap: round;
+}
+
+.exit-menu:hover {
+    background-color: rgba(40, 81, 123, 0.25);
+}
+
+.main-body {
+    padding-top: 60px;
+}
+
+.main-text {
+    padding-top: 24px;
+    padding-bottom: 3000px;
+
+    font-size: 30px;
+
+    text-align: center;
+}

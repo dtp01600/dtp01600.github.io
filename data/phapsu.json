@@ -1,0 +1,51 @@
+[
+    {   
+        "id": 1001,
+        "name": "Damper",
+        "attribute": "Mornye RC 1",
+        "icon": "/assets/icon/icon_damper.png",
+        "slot-img": "/assets/image/slot_damper.png"
+    },
+    {
+        "id": 1002,
+        "name": "Như Quỷ",
+        "attribute": "Var acc Kudog",
+        "icon": "/assets/icon/icon_nhuquy.png",
+        "slot-img": "/assets/image/slot_nhuquy.png"
+    },
+    {
+        "id": 1003,
+        "name": "Kudog",
+        "attribute": "Solon Lee",
+        "icon": "/assets/icon/icon_kudog.png",
+        "slot-img": "/assets/image/slot_solon.png"
+    },
+    {
+        "id": 1004,
+        "name": "Grand Architect",
+        "attribute": "Nivora",
+        "icon": "/assets/icon/icon_ga.png",
+        "slot-img": "/assets/image/slot_nivora.png"
+    },
+    {
+        "id": 1005,
+        "name": "Người Tày",
+        "attribute": "1 chày từ ta",
+        "icon": "/assets/icon/icon_nguoitay.png",
+        "slot-img": "/assets/image/slot_1chaytuta.png"
+    },
+    {
+        "id": 1006,
+        "name": "Triple T",
+        "attribute": "Chị Tùng Sà*hua",
+        "icon": "/assets/icon/icon_tungsa-hua.png",
+        "slot-img": "/assets/image/slot_tungsa-hua.png"
+    },
+    {
+        "id": 1007,
+        "name": "Tày Lùng",
+        "attribute": "Trôn kỳ Lùng",
+        "icon": "/assets/icon/icon_tailung.png",
+        "slot-img": "/assets/image/slot_tailung.png"
+    }
+]
