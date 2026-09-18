@@ -315,7 +315,7 @@
         "attribute": "Havoc",
         "weapon": "Broadblade",
         "style": {
-            "role": ["Supporter"],
+            "role": ["Sub DPS", "Supporter"],
             "tag": ["Healer", "Negative Status", "Shield", "Potential"]
         },
         "icon": "/assets/icon-ww/icon_chisa.webp",
