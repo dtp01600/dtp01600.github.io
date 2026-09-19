@@ -238,7 +238,7 @@
     display: none;
 
     position: absolute;
-    width: 100%;
+    width: var(--slot-width);
 
     z-index: 5;
 
