@@ -303,19 +303,19 @@
 }
 
 .player1 .special-slot-1 .slot-label {
-    transform: translateX(-10px) skewX(12deg);
+    transform: translateX(-7.5px) skewX(12deg);
 }
 
 .player1 .slot-1 .slot-label {
-    transform: translateX(10px) skewX(-12deg);
+    transform: translateX(7.5px) skewX(-12deg);
 }
 
 .player2 .special-slot-1 .slot-label {
-    transform: translateX(10px) skewX(12deg);
+    transform: translateX(7.5px) skewX(12deg);
 }
 
 .player2 .slot-1 .slot-label {
-    transform: translateX(-10px) skewX(-12deg);
+    transform: translateX(-7.5px) skewX(-12deg);
 }
 
 .player-status {
