@@ -40,7 +40,7 @@
 
 :root {
     --slot-width: clamp(24px, 7vw, 96px);;
-    --slot-height: 172.8px;
+    --slot-height: 188px;
 }
 
 .main-text {
@@ -238,7 +238,7 @@
     display: none;
 
     position: absolute;
-    width: 105%;
+    width: 100%;
 
     z-index: 5;
 
@@ -253,13 +253,32 @@
     color: white;
 }
 
+.slot-label::before {
+    content: "";
+    position: absolute;
+
+    left: -10%;
+    width: 120%;
+    
+    top: 0;
+    bottom: 0;
+
+    z-index: -1;
+}
+
 .slot-label.visible {
     display: block;
 }
 
 .player1 .slot-label {
     bottom: 0;
+}
 
+.player2 .slot-label {
+    top: 0;
+}
+
+.player1 .slot-label::before {
     background: linear-gradient(
         to top,
         rgb(0, 0, 0, 0.9),
@@ -267,9 +286,7 @@
     );
 }
 
-.player2 .slot-label {
-    top: 0;
-
+.player2 .slot-label::before {
     background: linear-gradient(
         to bottom,
         rgb(0, 0, 0, 0.9),
@@ -286,19 +303,19 @@
 }
 
 .player1 .special-slot-1 .slot-label {
-    transform: translateX(-5px) skewX(12deg);
+    transform: translateX(-10px) skewX(12deg);
 }
 
 .player1 .slot-1 .slot-label {
-    transform: translateX(5px) skewX(-12deg);
+    transform: translateX(10px) skewX(-12deg);
 }
 
 .player2 .special-slot-1 .slot-label {
-    transform: translateX(5px) skewX(12deg);
+    transform: translateX(10px) skewX(12deg);
 }
 
 .player2 .slot-1 .slot-label {
-    transform: translateX(-5px) skewX(-12deg);
+    transform: translateX(-10px) skewX(-12deg);
 }
 
 .player-status {
