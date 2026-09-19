@@ -251,6 +251,14 @@ function selectCharacter(character) {
     console.log("slotSelections:", [...slotSelections]);
     console.log("characterSelections:", [...characterSelections]);
 
+    const label =
+        selectedSlot.querySelector(".slot-label");
+
+    if (label) {
+        label.textContent = character.name;
+        label.classList.add("visible");
+    }
+
     // Your existing visual selection code
     selectedCharacter(character);
 

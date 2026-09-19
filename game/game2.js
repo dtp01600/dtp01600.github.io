@@ -123,6 +123,13 @@ undo.addEventListener("click", () => {
     updateSlotAvailability();
     updateSlotNav();
 
+    const label = targetSlot.querySelector(".slot-label");
+
+    if (label) {
+        label.textContent = "";
+        label.classList.remove("visible");
+    }
+
     // Play your existing removal animation
     imageWrapper.classList.add("removing");
 
@@ -242,6 +249,13 @@ resetAllTeam.addEventListener("click", () => {
     updateTurn();
     updateSlotAvailability();
     updateSlotNav();
+
+    const labels = document.querySelectorAll(".slot-label");
+
+    labels.forEach(label => {
+        label.textContent = "";
+        label.classList.remove("visible");
+    });
     
     const players = document.querySelectorAll(".player");
 

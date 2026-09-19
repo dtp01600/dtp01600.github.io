@@ -17,6 +17,12 @@ function createCharacterSlots(container, amount, special) {
 
         slot.dataset.slot = i + 1;
 
+        const label = document.createElement("span");
+
+        label.classList.add("slot-label");
+
+        slot.appendChild(label);
+
         slot.addEventListener("click", () => {
             openSlotNav(slot);
         });
@@ -31,6 +37,12 @@ function createCharacterSlots(container, amount, special) {
         specialSlot.classList.add(`special-slot-${special - i}`);
 
         specialSlot.dataset.slot = 100 + (special - i);
+
+        const label = document.createElement("span");
+
+        label.classList.add("slot-label");
+
+        specialSlot.appendChild(label);
 
         specialSlot.addEventListener("click", () => {
             openSlotNav(specialSlot);
