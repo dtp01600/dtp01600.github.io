@@ -104,6 +104,8 @@ function startTimer() {
 
         timer.textContent = timerSeconds;
 
+        saveGame();
+
         if (timerSeconds <= 10 && timerSeconds > 0) {
             turnContainer.classList.add("timer-warning");
         } else {
@@ -131,6 +133,9 @@ function stopTimer() {
     turnContainer.classList.remove("timer-warning");
 }
 
+loadGame();
+
 updateTurn();
 updateSlotAvailability();
 updateSlotNav();
+restoreSelectedSlots();

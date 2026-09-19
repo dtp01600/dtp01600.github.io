@@ -38,6 +38,13 @@ fetch("/data/resonators.json")
             slotNavBody.appendChild(characterButton);
         });
 
+        loadGame();
+
+        updateTurn();
+        updateSlotAvailability();
+        updateSlotNav();
+        restoreSelectedSlots();
+
     });
 
 
@@ -118,6 +125,8 @@ undo.addEventListener("click", () => {
         stopTimer();
         timer.textContent = 0;
     }
+
+    saveGame();
 
     updateTurn();
     updateSlotAvailability();
@@ -245,6 +254,8 @@ resetAllTeam.addEventListener("click", () => {
 
     stopTimer();
     timer.textContent = 0;
+
+    saveGame();
 
     updateTurn();
     updateSlotAvailability();

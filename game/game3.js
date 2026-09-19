@@ -1,7 +1,4 @@
 
-console.log("game3 sees characterList:", characterList);
-
-
 const filterButtons = document.querySelectorAll(".filter-button");
 const advancedFilterButton =
     document.querySelector(".advanced-filter-button");
@@ -93,8 +90,6 @@ filterButtons.forEach(button => {
 
 
 function updateSlotNav() {
-    console.log("updateSlotNav characterList:", characterList);
-    console.log("length:", characterList.length);
 
     const choices =
     document.querySelectorAll(".character-choice");
@@ -215,10 +210,6 @@ function selectCharacter(character) {
     const slotKey =
         `${player}-${slot}`;
 
-    if (character.map !== rule.map) {
-        return;
-    }
-
     const characterId = character.id;
 
     // Is this character already being used?
@@ -248,8 +239,6 @@ function selectCharacter(character) {
     slotSelections.set(slotKey, characterId);
     characterSelections.set(characterId, slotKey);
 
-    console.log("slotSelections:", [...slotSelections]);
-    console.log("characterSelections:", [...characterSelections]);
 
     const label =
         selectedSlot.querySelector(".slot-label");
@@ -261,6 +250,8 @@ function selectCharacter(character) {
 
     // Your existing visual selection code
     selectedCharacter(character);
+
+    saveGame();
 
     updateSlotNav();
 }
