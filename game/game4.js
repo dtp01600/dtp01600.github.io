@@ -111,7 +111,7 @@ function startTimer() {
         } else {
             turnContainer.classList.remove("timer-warning");
         }
-``
+
         if (timerSeconds <= 0) {
             currentTurn++;
             updateTurn();

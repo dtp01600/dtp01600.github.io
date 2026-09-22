@@ -39,8 +39,8 @@
 }
 
 :root {
-    --slot-width: clamp(24px, 7vw, 96px);;
-    --slot-height: 188px;
+    --slot-width: clamp(24px, 7vw, 144px);
+    --slot-height: 282px;
 }
 
 .main-text {
@@ -88,7 +88,7 @@
 
 .normal-slots {
     display: flex;
-    gap: 4px;
+    gap: 6px;
 
     transform: skewX(12deg);
 }
@@ -103,7 +103,7 @@
 
 .special-slots {
     display: flex;
-    gap: 4px;
+    gap: 6px;
 
     transform: skewX(-12deg);
 }
@@ -244,8 +244,8 @@
 
     padding: 8px 6px;
 
-    font-size: 0.9rem;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
 
     pointer-events: none;
@@ -400,7 +400,7 @@
 
 .playground {
     width: 100vw;
-    height: max(300px, calc(100vh - 60px - 80px - 2 * var(--slot-height)));
+    height: max(200px, calc(100vh - 60px - 80px - 2 * var(--slot-height)));
 
     display: flex;
     align-items: center;
